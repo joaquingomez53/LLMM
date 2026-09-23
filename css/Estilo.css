@@ -1,0 +1,81 @@
+header{
+    background-color: #96ee93;
+    padding: 20px;
+}
+
+footer{
+    background-color: #77a376;
+    padding: 20px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead, th, td{
+    border: 1px solid #e4c76a;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+tbody {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fdh {
+    background-color: #27dfc0;
+}
+
+.ldm {
+    background-color: #1281ad;
+}
+
+.ipe {
+    background-color: #7c46b9;
+}
+
+.ar {
+    background-color: #c51df0;
+}
+
+.ing {
+    background-color: #f0e51d;
+}
+
+.iso {
+    background-color: #0ee42a;
+}
+
+.sost {
+    background-color: #f59c02;
+}
+
+.bd {
+    background-color: #f02c02;
+}
+
+.proy {
+    background-color: #1202f0;
+}
+
+.digi {
+    background-color: #f33ea8;
+}
+
+.hora {
+    background-color: #aa5858;
+}
+
+.nombre {
+    background-color: #6edb77;
+}
+
+.borrar {
+    background-color: #f02c02;
+    color: rgb(0, 0, 0)
+}

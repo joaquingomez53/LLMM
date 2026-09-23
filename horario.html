@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lange="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Horario</title>
+        
+        <link rel="stylesheet" href="css/estilo.css"
+    </head>
+
+    <body>
+        <!-- CABEZERA -->
+        <header>
+            <h1>Mi instituto</h1>
+            <nav>
+        <a href="index.html">Inicio</a>
+        <a href="horario.html">Horario</a>
+        <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+        
+        <!-- CONTENIDO-->
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="hora"></td>
+                        <td class="hora">Lunes</td>
+                        <td class="hora">Martes</td>
+                        <td class="hora">Miercoles</td>
+                        <td class="hora">Jueves</td>
+                        <td class="hora">Viernes</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                <tr><!--Primeras horas-->
+                    <td class="hora"> 8:30-9:25</td>
+                    <td class="fdh">Fundamentos de hardware </td>
+                    <td class="sost">Sostenibilidad</td>
+                    <td class="ldm" rowspan="2">LLMM</td>
+                    <td class="ing">Ingles</td>
+                    <td class="ar" rowspan="2">Administración de Redes</td>
+                </tr>                
+                <tr><!--Segundas horas-->
+                    <td class="hora"> 9:25-10:20</td>
+                    <td class="ipe" rowspan="2">IPE </td>
+                    <td class="ipe">IPE</td>
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="iso" rowspan="2">Implantacion S.O</td>
+                    <!--Esta celda se completa con rowspan-->
+                </tr> 
+                <tr><!--Terceras horas-->
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="hora">10:20-11:15 </td>
+                    <td class="ar">Administración de Redes</td>
+                    <td class="ldm">LLMM</td>
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="fdh">Fundamentos de hardware</td>
+                </tr>
+                   <tr><!--Recreo-->
+                    <td class="hora" colspan="6"> R E C R E O</td>
+                </tr>
+                <tr><!--Cuartas horas-->
+                    <td class="hora"> 11:45-12:40</td>
+                    <td class="ing">Ingles </td>
+                    <td class="bd">Base de datos</td>
+                    <td class="ar">Administración de Redes</td>
+                    <td class="bd" rowspan="2">Base de datos</td>
+                    <td class="fdh">Fundamentos de hardware</td>
+                </tr>
+                <tr><!--Quintas horas-->
+                    <td class="hora"> 12:40-13:35</td>
+                    <td class="iso" rowspan="2">Implantacion S.O </td>
+                    <td class="proy">Proyecto</td>
+                    <td class="digi" rowspan="2">Digitalización</td>
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="iso" rowspan="2">Implantacion de S.O</td>
+                </tr>
+                <tr><!--Sextas horas-->
+                    <td class="hora"> 13:35-14:30</td>
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="ar">Administración de Redes</td>
+                    <!--Esta celda se completa con rowspan-->
+                    <td class="ldm">LLMM</td>
+                    <!--Esta celda se completa con rowspan-->
+                </tbody>
+            </table>
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer>
+            <p>Joaquín Gómez</p>
+        </footer>
+    </body>
+</html>

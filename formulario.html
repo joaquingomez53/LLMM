@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/Estilo.css">
+    <meta charset="UTF-8">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+    <h1><center>Mi primera WEB de Lenguaje de marcas</h1>
+    <h2><center>Menu</h2>
+    <nav><center>
+        <a href="index.html">Inicio</a>
+        <a href="horario.html">Horario</a>
+        <a href="formulario.html">Formulario</a>
+    </nav>
+    </header>
+    <main>
+        
+        <h1>Formulario de contacto</h1>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <strong><label for="nombre">Nombre:</label></strong>
+                <input class="nombre" type="text" id="nombre" name="nombre" required placeholder="Introduce tu nombre"><br><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input class="nombre" type="text" id="apellidos" name="apellidos" required placeholder="Introduce tus apellidos"><br><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input class="nombre" type="email" id="email" name="email" required placeholder="Introduce tu correo"><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input class="nombre" type="tel" id="telefono" name="telefono" placeholder="Introduce tu teléfono"><br><br>
+
+                <label for="provincia">Provincia:</label>
+                <select class="nombre" id="provincia" name="provincia">
+                    <option value="sevilla">Sevilla</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="huelva">Huelva</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="malaga">Málaga</option>
+                    <option value="granada">Granada</option>
+                    <option value="almeria">Almería</option>
+
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea class="nombre" id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Introduce tu mensaje"></textarea><br><br>
+
+                
+                <input class="nombre" type="submit" value="Enviar">
+        
+                <input class="borrar" type="reset" value="Borrar">    
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>CIFP Virgen de Gracia</p>
+        <p>
+            Contacto:
+            <a href="mailto:joaquingomez531013@gmail.com">
+            joaquingomez531013@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+</html>
