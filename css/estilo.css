@@ -1,5 +1,5 @@
 header{
-    background-color: #96ee93;
+    background-color: #32c72d;
     padding: 20px;
 }
 
@@ -9,13 +9,27 @@ footer{
     text-align: center;
 }
 
+body{
+    background-color: #b3ffe2;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;
 }
 
+main{
+    img{
+        display: block;
+        max-width: 35%;
+    }
+}
+
 thead, th, td{
-    border: 1px solid #e4c76a;
+    border: 1px solid #ffffff;
     padding: 8px;
     text-align: left;
     text-align: center;
