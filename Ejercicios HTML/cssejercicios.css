@@ -1,3 +1,4 @@
+ejc1.html
 .h2 {
     color: #fa0303;
 }
@@ -11,6 +12,162 @@
     background-color: #f0e51d;
 }
 
-.futer{
+.footer{
     background-color: #a5a4a4;
+}
+
+ejc2.html
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    background-image: url("C:\\Users\\ASIR 15\\Desktop\\LLMM\\IMG\\images (1).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.encabezados h4 {
+    color: red;
+    display: inline;
+}
+
+.encabezados h2 {
+    color: green;
+    background-color: yellow;
+    display: inline;
+    padding: 2px 5px;
+}
+
+.boton {
+    background-color: #ffd700; 
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+pre {
+    font-family: monospace;
+    margin: 15px 0;
+}
+
+.contenedor-imagen {
+    margin: 20px 0;
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.seccion-capitulo {
+    background-color: #6495ed; 
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.seccion-capitulo .etiqueta {
+    background-color: white;
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin: 0 0 5px 0;
+}
+
+.seccion-capitulo h3 {
+    margin: 0;
+}
+
+ejc3.html
+body {
+    font-family: Times New Roman, serif;
+    margin: 20px;
+}
+
+.banner {
+    background-color: #55d6f6;
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.separador {
+    border: none;
+    border-top: 1.5px solid #888;
+    margin: 25px 0;
+}
+
+.lista-ordenada {
+    list-style-type: decimal;
+}
+
+.lista-no-ordenada ul,
+.sublista-cuadrados {
+    list-style-type: square;
+}
+ejc4.html
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.separador {
+    border: none;
+    border-top: 1.5px solid #777;
+    margin: 20px 0;
+}
+
+.menu-horizontal {
+    list-style: none;
+    padding: 15px 20px;
+    margin: 0;
+    background-color: #828059;
+    display: flex;
+    gap: 25px;
+    width: fit-content;
+}
+
+.menu-horizontal li {
+    color: #e2dfd2;
+    font-size: 18px;
+}
+
+.menu-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 140px;
+}
+
+.menu-vertical li {
+    background-color: #6ed938;
+    color: #dedede;
+    padding: 12px 15px;
+    font-size: 18px;
+}
+
+.menu-vertical li.activo {
+    background-color: #e51d24;
+    color: #ffffff;
 }
